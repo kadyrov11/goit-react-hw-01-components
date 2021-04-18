@@ -1,0 +1,30 @@
+.profile {
+  background-color: rgba(9, 144, 255, 0.288);
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.avatar {
+  height: 150px;
+  width: 170px;
+  background-color: rgba(19, 50, 107, 0.603);
+  border-radius: 50%;
+  padding-top: 10px;
+}
+.name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.stats {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  background-color: rgba(122, 21, 255, 0.603);
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+.quantity {
+  font-weight: bold;
+  margin-right: 15px;
+}
