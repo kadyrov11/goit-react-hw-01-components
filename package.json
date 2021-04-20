@@ -1,7 +1,9 @@
 {
   "name": "goit-react-hw-01-components",
   "version": "0.1.0",
-  "private": true,
+  "private": true,  
+  "homepage": "https://github.com/kadyrov11/goit-react-hw-01-components",
+
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
@@ -29,7 +31,6 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://github.com/kadyrov11/goit-react-hw-01-components",
   "browserslist": {
     "production": [
       ">0.2%",
