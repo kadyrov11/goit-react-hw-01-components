@@ -1,0 +1,41 @@
+.friendList {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+}
+
+.friend {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 370px;
+}
+.friend:hover,
+.friend:focus {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.582);
+}
+.friendImg {
+  height: 300px;
+  width: 100%;
+  background-color: rgba(189, 33, 119, 0.781);
+  border-radius: 3px;
+}
+.friendName {
+  font-weight: bold;
+}
+.isOnline {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-left: 10px;
+  display: inline-block;
+}
+.online {
+  composes: isOnline;
+  background-color: rgb(9, 167, 9);
+}
+.offline {
+  composes: isOnline;
+  background-color: rgb(141, 141, 141);
+}

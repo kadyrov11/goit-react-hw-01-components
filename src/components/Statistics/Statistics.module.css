@@ -1,0 +1,27 @@
+.statistics {
+  width: fit-content;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 40px auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.87);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.466);
+}
+.title {
+  color: rgb(94, 91, 91);
+}
+.statList {
+  list-style: none;
+  display: flex;
+  margin: 0;
+
+  color: white;
+  border-radius: 5px;
+  border-top: 3px solid black;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  padding: 10px;
+}
