@@ -15,13 +15,7 @@ import transactions from "../../JSON/transactions.json"
 
 const App = () => (
     <>
-        <Profile 
-            name={user.name}
-            tag={user.tag}
-            location={user.location}
-            avatar={user.avatar}
-            stats={user.stats}
-        />
+        <Profile {...user}/>
 
         <Statistics stats={statisticalData} />
         
